@@ -1,0 +1,14 @@
+name = "{{ project-name }}"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2021-10-17"
+
+[build]
+command = "yarn install && yarn build"
+[build.upload]
+# The "modules" upload format is required for all projects that export a Durable Objects class
+format = "modules"
+main = "./index.mjs"
