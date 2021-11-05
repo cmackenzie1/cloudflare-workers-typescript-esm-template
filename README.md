@@ -15,7 +15,7 @@ found [here](https://developers.cloudflare.com/workers/tooling/wrangler/).
 To generate using Wrangler, run this command:
 
 ```bash
-wrangler generate my-ts-project https://github.com/cloudflare/worker-typescript-template
+wrangler generate my-ts-project https://github.com/cmackenzie1/cloudflare-workers-typescript-esm-template
 ```
 
 ### 👩 💻 Developing
