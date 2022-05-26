@@ -1,0 +1,39 @@
+{
+  "name": "httpstatuses-info",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint './**/*.{js,ts,css,json,md}'",
+    "format": "prettier --write '**/*.{js,ts,css,json,md}'",
+    "start": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.11.0",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "rollup": "^2.74.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^28.0.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2",
+    "wrangler": "2.0.6"
+  },
+  "dependencies": {
+    "http-status-codes": "^2.2.0",
+    "itty-router": "^2.6.1",
+    "serialize-error": "^11.0.0"
+  }
+}
